@@ -1,0 +1,9 @@
+{
+  "titleNView": {
+    "backgroundColor": "#CA0C16",
+    "titleText": "音随心动",
+    "titleColor": "#FFFFFF",
+    "titleSize": "28px"
+  },
+  "usingComponents": {}
+}

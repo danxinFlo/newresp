@@ -1,0 +1,2 @@
+setCssToHead([".",[1],"music_page { height : 100%; width : 100%; padding-top : ",[0,400],"; }\n.",[1],"open_blueteeth { width : ",[0,200],"; color : #FFFFFF; font-size: ",[0,28],"; border: ",[0,2]," solid #CA0C16; border-radius : ",[0,32],"; margin : 0 auto; text-align: center; }\n",],undefined,{path:"./pages/music/index.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/music/index.wxml') } }));

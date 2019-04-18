@@ -1,0 +1,17 @@
+
+.music_page {
+	height : 100%;
+	width : 100%;
+	padding-top : 400rpx;
+}
+.open_blueteeth {
+	width : 200rpx;
+	color : #FFFFFF;
+	font-size: 28rpx;
+	border: 2rpx solid #CA0C16;
+	border-radius : 32rpx;
+	margin : 0 auto;
+	text-align: center;
+}
+
+

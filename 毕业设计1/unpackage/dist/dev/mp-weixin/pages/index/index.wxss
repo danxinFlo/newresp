@@ -1,0 +1,57 @@
+
+.first_page {
+	text-align: center;
+	height: 400rpx;
+}
+.logo {
+	height: 200rpx;
+	width: 200rpx;
+	margin-top: 200rpx;
+}
+.title {
+	font-size: 36rpx;
+	color: #8f8f94;
+}
+.music_btn {
+	height : 50rpx;
+	width : 100%;
+	margin-top : 200rpx;
+	text-align: center;
+}
+.music_agree {
+	height : 100%;
+	width : 100%;
+	position : absolute;
+	top : 0;
+	left : 0;
+	z-index : 100;
+}
+.agree_content {
+	width : 500rpx;
+	height : 800rpx;
+	background-color: #FFFFFF;
+	position: relative;
+	margin : 200rpx auto;
+	z-index: 102;
+	border-radius: 32rpx;
+	text-align: center;
+}
+.agree_other {
+	height  : 100%;
+	width : 100%;
+	position: absolute;
+	top : 0;
+	left : 0;
+	z-index: 101;
+	width : 100%;
+	opacity: 0.4;
+}
+.gotoMusic_btn {
+	width :200rpx;
+	position: absolute;
+	left : 150rpx;
+	bottom : 100rpx;
+	border : 2rpx solid #CA0C16;
+	border-radius: 32rpx;
+}
+
