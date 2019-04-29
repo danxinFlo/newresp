@@ -1,1 +1,1 @@
-<view class="music_page" bind:__l="__l"><view data-event-opts="{{[['tap',[['openblueTeeth']]]]}}" class="open_blueteeth" bindtap="__e">{{''+title+''}}</view></view>
+<view class="music_page" bind:__l="__l"><view class="music_circle"></view></view>

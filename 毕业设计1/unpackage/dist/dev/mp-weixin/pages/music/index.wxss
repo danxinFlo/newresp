@@ -2,12 +2,11 @@
 .music_page {
 	height : 100%;
 	width : 100%;
-	background-color : #3399EA;
 	padding-top : 400rpx;
 }
 .open_blueteeth {
 	width : 200rpx;
-	color : #FFFFFF;
+	color : black;
 	font-size: 28rpx;
 	border: 2rpx solid #CA0C16;
 	border-radius : 32rpx;

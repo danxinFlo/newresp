@@ -1,5 +1,75 @@
 (global["webpackJsonp"] = global["webpackJsonp"] || []).push([["common/vendor"],{
 
+/***/ "../../../../../../Users/lzy/Documents/guody/dan/newresp/毕业设计1/main.js":
+/*!************************************************************!*\
+  !*** /Users/lzy/Documents/guody/dan/newresp/毕业设计1/main.js ***!
+  \************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(createApp) {__webpack_require__(/*! uni-pages */ "../../../../../../Users/lzy/Documents/guody/dan/newresp/毕业设计1/pages.json");
+var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ "./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mp-vue/dist/mp.runtime.esm.js"));
+var _App = _interopRequireDefault(__webpack_require__(/*! ./App */ "../../../../../../Users/lzy/Documents/guody/dan/newresp/毕业设计1/App.vue"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}function _objectSpread(target) {for (var i = 1; i < arguments.length; i++) {var source = arguments[i] != null ? arguments[i] : {};var ownKeys = Object.keys(source);if (typeof Object.getOwnPropertySymbols === 'function') {ownKeys = ownKeys.concat(Object.getOwnPropertySymbols(source).filter(function (sym) {return Object.getOwnPropertyDescriptor(source, sym).enumerable;}));}ownKeys.forEach(function (key) {_defineProperty(target, key, source[key]);});}return target;}function _defineProperty(obj, key, value) {if (key in obj) {Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true });} else {obj[key] = value;}return obj;}
+
+_vue.default.config.productionTip = false;
+
+_App.default.mpType = 'app';
+
+var app = new _vue.default(_objectSpread({},
+_App.default));
+
+createApp(app).$mount();
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ "./node_modules/@dcloudio/uni-mp-weixin/dist/index.js")["createApp"]))
+
+/***/ }),
+
+/***/ "../../../../../../Users/lzy/Documents/guody/dan/newresp/毕业设计1/main.js?{\"page\":\"pages%2Findex%2Findex\"}":
+/*!*********************************************************************************************!*\
+  !*** /Users/lzy/Documents/guody/dan/newresp/毕业设计1/main.js?{"page":"pages%2Findex%2Findex"} ***!
+  \*********************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ "../../../../../../Users/lzy/Documents/guody/dan/newresp/毕业设计1/pages.json");
+
+var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ "./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mp-vue/dist/mp.runtime.esm.js"));
+var _index = _interopRequireDefault(__webpack_require__(/*! ./pages/index/index.vue */ "../../../../../../Users/lzy/Documents/guody/dan/newresp/毕业设计1/pages/index/index.vue"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
+createPage(_index.default);
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ "./node_modules/@dcloudio/uni-mp-weixin/dist/index.js")["createPage"]))
+
+/***/ }),
+
+/***/ "../../../../../../Users/lzy/Documents/guody/dan/newresp/毕业设计1/main.js?{\"page\":\"pages%2Fmusic%2Findex\"}":
+/*!*********************************************************************************************!*\
+  !*** /Users/lzy/Documents/guody/dan/newresp/毕业设计1/main.js?{"page":"pages%2Fmusic%2Findex"} ***!
+  \*********************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ "../../../../../../Users/lzy/Documents/guody/dan/newresp/毕业设计1/pages.json");
+
+var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ "./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mp-vue/dist/mp.runtime.esm.js"));
+var _index = _interopRequireDefault(__webpack_require__(/*! ./pages/music/index.vue */ "../../../../../../Users/lzy/Documents/guody/dan/newresp/毕业设计1/pages/music/index.vue"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
+createPage(_index.default);
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ "./node_modules/@dcloudio/uni-mp-weixin/dist/index.js")["createPage"]))
+
+/***/ }),
+
+/***/ "../../../../../../Users/lzy/Documents/guody/dan/newresp/毕业设计1/pages.json":
+/*!***************************************************************!*\
+  !*** /Users/lzy/Documents/guody/dan/newresp/毕业设计1/pages.json ***!
+  \***************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+/***/ }),
+
 /***/ "./node_modules/@dcloudio/uni-mp-weixin/dist/index.js":
 /*!************************************************************!*\
   !*** ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js ***!
@@ -538,6 +608,15 @@ function processEventExtra(vm, extra) {
   return extraObj;
 }
 
+function getObjByArray(arr) {
+  var obj = {};
+  for (var i = 1; i < arr.length; i++) {
+    var element = arr[i];
+    obj[element[0]] = element[1];
+  }
+  return obj;
+}
+
 function processEventArgs(vm, event) {var args = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : [];var extra = arguments.length > 3 && arguments[3] !== undefined ? arguments[3] : [];var isCustom = arguments.length > 4 ? arguments[4] : undefined;var methodName = arguments.length > 5 ? arguments[5] : undefined;
   var isCustomMPEvent = false; // wxcomponent 组件，传递原始 event 对象
   if (isCustom) {// 自定义事件
@@ -567,7 +646,9 @@ function processEventArgs(vm, event) {var args = arguments.length > 2 && argumen
         }
       }
     } else {
-      if (typeof arg === 'string' && hasOwn(extraObj, arg)) {
+      if (Array.isArray(arg) && arg[0] === 'o') {
+        ret.push(getObjByArray(arg));
+      } else if (typeof arg === 'string' && hasOwn(extraObj, arg)) {
         ret.push(extraObj[arg]);
       } else {
         ret.push(arg);
@@ -6905,76 +6986,6 @@ try {
 // easier to handle this case. if(!global) { ...}
 
 module.exports = g;
-
-
-/***/ }),
-
-/***/ "C:\\Users\\Administrator\\Documents\\HBuilderProjects\\毕业设计1\\main.js":
-/*!***********************************************************************!*\
-  !*** C:/Users/Administrator/Documents/HBuilderProjects/毕业设计1/main.js ***!
-  \***********************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-/* WEBPACK VAR INJECTION */(function(createApp) {__webpack_require__(/*! uni-pages */ "C:\\Users\\Administrator\\Documents\\HBuilderProjects\\毕业设计1\\pages.json");
-var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ "./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mp-vue/dist/mp.runtime.esm.js"));
-var _App = _interopRequireDefault(__webpack_require__(/*! ./App */ "C:\\Users\\Administrator\\Documents\\HBuilderProjects\\毕业设计1\\App.vue"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}function _objectSpread(target) {for (var i = 1; i < arguments.length; i++) {var source = arguments[i] != null ? arguments[i] : {};var ownKeys = Object.keys(source);if (typeof Object.getOwnPropertySymbols === 'function') {ownKeys = ownKeys.concat(Object.getOwnPropertySymbols(source).filter(function (sym) {return Object.getOwnPropertyDescriptor(source, sym).enumerable;}));}ownKeys.forEach(function (key) {_defineProperty(target, key, source[key]);});}return target;}function _defineProperty(obj, key, value) {if (key in obj) {Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true });} else {obj[key] = value;}return obj;}
-
-_vue.default.config.productionTip = false;
-
-_App.default.mpType = 'app';
-
-var app = new _vue.default(_objectSpread({},
-_App.default));
-
-createApp(app).$mount();
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ "./node_modules/@dcloudio/uni-mp-weixin/dist/index.js")["createApp"]))
-
-/***/ }),
-
-/***/ "C:\\Users\\Administrator\\Documents\\HBuilderProjects\\毕业设计1\\main.js?{\"page\":\"pages%2Findex%2Findex\"}":
-/*!********************************************************************************************************!*\
-  !*** C:/Users/Administrator/Documents/HBuilderProjects/毕业设计1/main.js?{"page":"pages%2Findex%2Findex"} ***!
-  \********************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ "C:\\Users\\Administrator\\Documents\\HBuilderProjects\\毕业设计1\\pages.json");
-
-var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ "./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mp-vue/dist/mp.runtime.esm.js"));
-var _index = _interopRequireDefault(__webpack_require__(/*! ./pages/index/index.vue */ "C:\\Users\\Administrator\\Documents\\HBuilderProjects\\毕业设计1\\pages\\index\\index.vue"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
-createPage(_index.default);
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ "./node_modules/@dcloudio/uni-mp-weixin/dist/index.js")["createPage"]))
-
-/***/ }),
-
-/***/ "C:\\Users\\Administrator\\Documents\\HBuilderProjects\\毕业设计1\\main.js?{\"page\":\"pages%2Fmusic%2Findex\"}":
-/*!********************************************************************************************************!*\
-  !*** C:/Users/Administrator/Documents/HBuilderProjects/毕业设计1/main.js?{"page":"pages%2Fmusic%2Findex"} ***!
-  \********************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ "C:\\Users\\Administrator\\Documents\\HBuilderProjects\\毕业设计1\\pages.json");
-
-var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ "./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mp-vue/dist/mp.runtime.esm.js"));
-var _index = _interopRequireDefault(__webpack_require__(/*! ./pages/music/index.vue */ "C:\\Users\\Administrator\\Documents\\HBuilderProjects\\毕业设计1\\pages\\music\\index.vue"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
-createPage(_index.default);
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ "./node_modules/@dcloudio/uni-mp-weixin/dist/index.js")["createPage"]))
-
-/***/ }),
-
-/***/ "C:\\Users\\Administrator\\Documents\\HBuilderProjects\\毕业设计1\\pages.json":
-/*!**************************************************************************!*\
-  !*** C:/Users/Administrator/Documents/HBuilderProjects/毕业设计1/pages.json ***!
-  \**************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
 
 
 /***/ })

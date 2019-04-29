@@ -45,6 +45,7 @@
 	z-index: 101;
 	width : 100%;
 	opacity: 0.4;
+	background: #4D4D4D;
 }
 .gotoMusic_btn {
 	width :200rpx;

@@ -1,17 +1,15 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/music/index"
+    "pages/music/index",
+    "pages/first/index"
   ],
   "subPackages": [],
-  "window": {
-    "navigationStyle": "custom"
-  },
   "splashscreen": {
     "alwaysShowBeforeRender": true,
     "autoclose": false
   },
   "appname": "毕业设计1",
-  "compilerVersion": "1.9.2",
+  "compilerVersion": "1.9.4",
   "usingComponents": {}
 }

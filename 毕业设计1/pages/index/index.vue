@@ -1,17 +1,17 @@
 <template>
 	<view class="first_page">
-		<image class="logo" src="/static/logo.png"></image>
-		<view class="music_agree" v-if="agree_back">
-			<view class="agree_content">
-				<view class="gotoMusic_btn" @click="gotoMusic()">
-					{{agree_content}}
-				</view>
-			</view>
-			<view class="agree_other" @click="makeOtherHide()">
-				
-			</view>
+		<view class="title">
+			音乐，音悦
 		</view>
-		<view  class="music_btn" @click = 'getAgree()'>{{title}}</view>
+		<view class="spec_title">
+			开启手环模式
+		</view>
+		<view class="btn_left">
+			同意
+		</view>
+		<view class="btn_right">
+			不同意
+		</view>
 	</view>
 </template> 
 
@@ -44,62 +44,54 @@
 
 <style>
 	.first_page {
-		text-align: center;
-		height: 400upx;
-	}
-
-	.logo {
-		height: 200upx;
-		width: 200upx;
-		margin-top: 200upx;
-	}
-
-	.title {
-		font-size: 36upx;
-		color: #8f8f94;
-	}
-	.music_btn {
-		height : 50upx;
-		width : 100%;
-		margin-top : 200upx;
-		text-align: center;
-	}
-	.music_agree {
 		height : 100%;
-		width : 100%;
-		position : absolute;
-		top : 0;
-		left : 0;
-		z-index : 100;
+		background-color: #D23226;
 		
 	}
-	.agree_content {
-		width : 500upx;
-		height : 800upx;
-		background-color: #FFFFFF;
-		position: relative;
-		margin : 200upx auto ;
-		z-index: 102;
-		border-radius: 32upx;
+	.title {
+		padding-top:290upx;
 		text-align: center;
+		color : white;
+		font-size: 70upx;
 	}
-	.agree_other {
-		height  : 100%;
-		width : 100%;
+	.spec_title {
 		position: absolute;
-		top : 0;
-		left : 0;
-		z-index: 101;
-		width : 100%;
-		opacity: 0.4;
-		background: #4D4D4D;
+		bottom: 250upx;
+		color : white;
+		font-size: 36upx;
+		text-align: center;
+		width: 100%;
 	}
-	.gotoMusic_btn {
-		width :200upx;
+	.btn_left {
+		width : 150upx;
+		height : 60upx;
+		border : 1px solid white;
+		border-radius: 28upx;
+		font-size: 36upx;
+		line-height: 61upx;
+		color : white;
+		text-align: center;
 		position: absolute;
-		left : 150upx;
-		bottom : 100upx;
-		border : 2upx solid #CA0C16;
-		border-radius: 32upx;
+		bottom: 130upx;
+		left: 145upx;
+	}
+	
+	.btn_right {
+		width : 150upx;
+		height : 60upx;
+		border : 1px solid white;
+		border-radius: 28upx;
+		font-size: 36upx;
+		line-height: 61upx;
+		color : white;
+		text-align: center;
+		position: absolute;
+		bottom: 130upx;
+		right: 145upx;
+		
+	}
+	
+	page  {
+		height : 100%;
 	}
 </style>
