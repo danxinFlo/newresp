@@ -1,0 +1,228 @@
+
+page {  
+		height : 100%;
+}
+.first {
+		padding: 0 16rpx;
+		background-image: url(../../static/img/newb.fee68b46.png);
+		background-size:cover ;
+		background-position: left top;
+}
+.top {
+		height : 40rpx;
+}
+.swiper-item {
+		width : 100%;
+		height : 382px;
+		border-radius: 16rpx;
+		overflow: hidden;
+		margin-top : 48rpx;
+}
+.swiper-img {
+		width : 100%;
+		height : 191rpx;
+		border-radius: 16rpx;
+}
+.btn_box {
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-pack: space-evenly;
+		-webkit-justify-content: space-evenly;
+		    -ms-flex-pack: space-evenly;
+		        justify-content: space-evenly;
+		margin-top : 30rpx;
+}
+.btn_item {
+}
+.btn_img { 
+		width : 100rpx;
+		height : 100rpx;
+		display: block;
+		margin: 0 auto;
+}
+.btn_text {
+		font-size: 32rpx;
+		color : #4D4D4D;
+		text-align: center;
+		margin-top : 16rpx;
+}
+.kind_title {
+		margin-top : 23px;
+		color : #4D4D4D;
+		font-size: 22px;
+		text-align: center;
+		font-weight: 600;
+}
+.list_box {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-pack: justify;
+		-webkit-justify-content: space-between;
+		    -ms-flex-pack: justify;
+		        justify-content: space-between;
+		-webkit-flex-wrap: wrap;
+		    -ms-flex-wrap: wrap;
+		        flex-wrap: wrap;
+		display: -webkit-flex;
+		padding-bottom : 90px;
+}
+.list_item {
+		width : 183px;  
+		margin-top: 24px;
+}
+.list_img {
+		width : 183px;
+		height : 83px;
+		border-radius: 8px;
+}
+.list_text {
+		max-width: 183px;
+		font-size: 16px;
+		color: #4D4D4D;
+		line-height: 20px;
+		-o-text-overflow: ellipsis;
+		   text-overflow: ellipsis;
+		display: -webkit-box;
+		-webkit-box-orient : verticel;
+		-webkit-box-clamp : 2;
+		word-break: break-all;
+		margin-top : 9px;
+		overflow: hidden;
+}
+.down_tool {
+		width: 100%;
+		height: 44px;
+		padding: 11px 16px 11px 16px;
+		border-top:1rpx solid #E0E0E0;
+		position: fixed;
+		bottom: 0;
+		left : 0;
+		z-index: 100;
+		background: white;
+}
+.head_img {
+		width : 44px ;
+		height : 44px;
+		border-radius: 50%;
+		background: #D8D8D8;
+		float :left;
+}
+.song_info {
+		margin-left : 8px;
+		float : left;
+}
+.song_title {
+		color : #4D4D4D;
+		font-size: 18px;
+}
+.song_info_text {
+		font-size: 14px;
+		color : #999999;
+}
+.song_act {
+		widht : 40px;
+		height : 40px;
+		float :right ;
+		margin-right: 16px;
+}
+.song_play_btn {
+		width : 40px;
+		height : 40px;
+}
+.song_menu {
+		float : right ;
+		width : 30px;
+		height : 30px;
+		margin-right: 32px;
+		 margin-top: 5px;
+}
+.song_menu_btn {
+		width : 30px;
+		height : 30px;
+}
+.commonlist {
+		padding-top: 26px;
+		height: auto;
+}
+.common_titlebox {
+		position: relative;
+}
+.title_head {
+		position: absolute;
+		top: 0;
+		left : 0;
+		width : 24px;
+		height : 24px;
+}
+.title_head_img {
+		width : 24px;
+		height : 24px;
+}
+.title_text {
+		position: absolute;
+		font-size: 20px;
+		color : #4D4D4D;
+		top: 0;
+		left: 32px;
+}
+.title_num {
+		font-size: 20px;
+		color : #3F3F3F;
+		position: absolute;
+		top: 0;
+		left: 115px;
+}
+.title_download {
+		width : 24px;
+		height :24px;
+		position: absolute;
+		top: 0;
+		right: 40px;
+}
+.title_download_img{
+		width : 24px;
+		height : 24px;
+}
+.title_delete {
+		width : 24px;
+		height : 24px;
+		position: absolute;
+		top: 0;
+		right: 0;
+}
+.title_delete_img {
+		width : 24px;
+		height : 24px;
+}
+.common_itembox {
+		margin-top : 60px;
+		position: relative;
+}
+.common_item {
+		margin-top : 15px;
+		height: 50px;
+		position: relative;
+}
+.item_title {
+		font-size: 20px;
+		color: #4D4D4D;
+		position: absolute;
+		top: 0;
+		left : 0;
+}
+.item_info {
+		position: absolute;
+		bottom:0 ;
+		left : 0;
+		font-size: 12px;
+		color: #818181;
+}
+.item_delete {
+		position: absolute;
+		right: 0;
+		top: 0;
+}
+

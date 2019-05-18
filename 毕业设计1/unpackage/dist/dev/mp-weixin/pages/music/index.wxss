@@ -2,7 +2,7 @@
 .music_page {
 	height : 100%;
 	width : 100%;
-	padding-top : 400rpx;
+	padding-top : 160rpx;
 }
 .open_blueteeth {
 	width : 200rpx;
@@ -12,6 +12,13 @@
 	border-radius : 32rpx;
 	margin : 0 auto;
 	text-align: center;
+}
+.music_circle {
+	height : 684rpx;
+	width : 684rpx;
+	border-radius: 50%;
+	background-color: black;
+	margin : 0 auto;
 }
 
 

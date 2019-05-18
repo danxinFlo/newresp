@@ -1,1 +1,1 @@
-<view class="first_page" bind:__l="__l"><view class="title">音乐，音悦</view><view class="spec_title">开启手环模式</view><view class="btn_left">同意</view><view class="btn_right">不同意</view></view>
+<view class="first_page" bind:__l="__l"><view class="title">音乐，音悦</view><view class="spec_title">开启手环模式</view><view data-event-opts="{{[['tap',[['gotoFirst',[1]]]]]}}" class="btn_left" bindtap="__e">同意</view><view data-event-opts="{{[['tap',[['gotoFirst']]]]}}" class="btn_right" bindtap="__e">不同意</view></view>

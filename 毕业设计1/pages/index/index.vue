@@ -6,10 +6,10 @@
 		<view class="spec_title">
 			开启手环模式
 		</view>
-		<view class="btn_left">
+		<view class="btn_left" @click="gotoFirst(1)">
 			同意
 		</view>
-		<view class="btn_right">
+		<view class="btn_right" @click="gotoFirst()">
 			不同意
 		</view>
 	</view>
@@ -37,6 +37,18 @@
 			},
 			makeOtherHide(){
 				this.agree_back = false;
+			},
+			gotoFirst(flag){
+				if(flag){ 
+					uni.redirectTo({
+						url : '/pages/first/index?isBlue=blue'
+					})
+				}else {
+					uni.redirectTo({
+						url : '/pages/first/index?isBlue=noblue'
+					})
+				}
+				
 			}
 		}
 	}

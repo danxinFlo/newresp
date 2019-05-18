@@ -1,11 +1,10 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/music/index"
+    "pages/music/index",
+    "pages/first/index",
+    "pages/play/index"
   ],
   "subPackages": [],
-  "window": {
-    "navigationStyle": "custom"
-  },
   "usingComponents": {}
 }
